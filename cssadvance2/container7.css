@@ -1,0 +1,99 @@
+#imgcontainer4{
+    height: 100vh;
+    background: url("innoraft images/img-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container7{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 31, 96, 0.73);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #mainhead2{
+    display: flex;
+    margin: 100px 100px 70px 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  #mainhead2 #head2{
+      font-size: 60px;
+      margin: 25px 0px;
+      font-weight: lighter;
+  }
+  #mainhead2 #sub2{
+    color: rgb(255, 255, 255);
+  }
+  #headandsub{
+   margin-right: 500px;
+  }
+  #arrows{
+    
+    display: flex;
+    width: 140px;
+    height: 70px;
+    
+  }
+  #larrow,#rarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    transition: 0.5s;
+  }
+  #larrow{
+   background-color: rgb(31, 31, 96);
+  }
+  #rarrow{
+    background-color: rgb(226, 172, 9);
+  }
+  #larrow img,#rarrow img{
+    width: 20px;
+  }
+  #peoplecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 120px;
+  }
+  .icons5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons5 img{
+    width: 80px;
+    border-radius: 50%;
+    transition: 0.5s;
+    filter: grayscale(0.5);
+  }
+  .icons5 h2,.icons5 h3,.icons5 p{
+   text-align: center;
+   line-height: 20px;
+  }
+  .icons5 h3{
+    margin: 20px 0px;
+    font-size: 14px;
+  }
+  .icons5 h2{
+    margin-top: 30px;
+  }
+  .icons5 p{
+    padding: 0px 50px;
+    color: rgb(255, 255, 255);
+  }
+  #larrow:hover{
+    background-color: rgb(47, 47, 158);
+  }
+  #rarrow:hover{
+    background-color: rgb(146, 111, 8);
+  }
+  .icons5 img:hover{
+    scale: 120%;
+    filter: grayscale(0);
+  }

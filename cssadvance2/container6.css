@@ -1,0 +1,98 @@
+#container6 {
+    height: 120vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(31, 31, 96);
+}
+
+#container6 #mainhead {
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#container6 #mainsub {
+    margin-top: 40px;
+    
+}
+
+#container6 #box {
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(109, 116, 113); */
+
+}
+
+.icons4 {
+    width: 33%;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    height: 100%;
+    margin: 0px 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.747);
+    text-align: center;
+    border-radius: 4px;
+
+}
+.icons4 .head{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.icons4 .subtitle{
+    display: inline-block;
+    font-size: 17px;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 35px;
+    
+}
+.price{
+    font-size: 40px;
+}
+.price span{
+ font-size: 16px;
+}
+.icons4 .longpara{
+    padding: 10px 110px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.icons4 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+    width: 11em;
+    text-decoration: none;
+    margin: auto;
+}
+.icons4 button{
+    border: none;
+    background: none;
+    color:rgb(31, 31, 96) ;
+    letter-spacing: 2px;
+    font-weight: bold;
+    height: 100%;
+    width: 90%;
+    transition: 0.5s;
+    border: 3px solid rgb(31, 31, 96);
+    border-radius: 50px;
+}
+.icons4 button:hover{
+    background-color: orange;
+    width: 100%;
+    color: white;
+    border-color:orange ;
+}

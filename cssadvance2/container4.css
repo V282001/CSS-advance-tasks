@@ -1,0 +1,94 @@
+#container4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(22, 15, 101, 0.785);
+    height: 180vh;
+    
+    padding:100px 100px 0px 100px;
+    
+}
+#container4 h1{
+    font-size: 40px;
+    margin-left: 4px;
+    font-weight: lighter;
+}
+#container4 p{
+    margin: 30px 4px;
+}
+#container4 ul{
+    display:flex;
+    margin-left: 5px;
+}
+#container4 ul li{
+    font-weight: bold;
+    list-style: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+#container4 ul li:hover{
+    background-color: rgb(214, 214, 214);
+}
+#container4 #images{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#c1,#c2,#c3{
+    height:100%;
+    width: 32%;
+    /* background-color: rgb(127, 255, 212); */
+    margin: 5px;
+}
+#c2{
+    margin: 0px 32px;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64.5%;
+    background: url("innoraft images/12-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29%;
+    background:url("innoraft images/2-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c2 :nth-child(2){
+    margin: 58px 0px;
+}
+#c1 .card,#c3 .board{
+    margin-top: 38px;
+}
+#c1 .card{
+    margin-top: 58px;
+}
+#c3 .board{
+    margin-top: 58px;
+}
+.over{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    background-color: rgba(31, 31, 96, 0.527);
+    transition: 0.5s;
+
+}
+.over:hover{
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+/* footer */
+footer{
+    display: flex;
+    height: 60px;
+    background-color: rgb(7, 99, 99);
+    align-items: center;
+    justify-content: center;
+    
+   }
+   footer span{
+    margin: 0px 10px;
+    color: white;
+   }
+   footer span a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+   }
+   footer span a:hover{
+    text-decoration: underline;
+   }

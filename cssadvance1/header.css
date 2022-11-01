@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#logo{
+    margin-left: 20px;
+    overflow: hidden;
+}
+#logo img{
+    width: 100px;
+    transition: 0.5s;
+    
+}
+ul{
+    /* border: 2px solid black; */
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+}
+li{
+    list-style: none;
+    margin: 12px 50px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    transition: 0.5s;
+}
+li:hover{
+    background-color: rgb(40, 130, 248);
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#logo img:hover{
+   scale: 130%;
+}
